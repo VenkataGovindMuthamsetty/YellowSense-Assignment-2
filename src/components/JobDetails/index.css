@@ -1,0 +1,107 @@
+.job-detail-container1 {
+  padding: 20px;
+  min-height: 30vh;
+  padding-bottom: 80px;
+}
+.job-detail-container {
+  background-color: white;
+  padding: 20px;
+  border-style: solid;
+  border-color: rgb(157, 150, 150);
+  border-radius: 15px;
+  min-height: 30vh;
+}
+.companeyName {
+  margin: 0px;
+  font-size: 17px;
+}
+.title {
+  font-size: 14px;
+}
+.add-bookmark {
+  display: none;
+}
+.apply-now {
+  margin-right: 30px;
+  font-size: 15px;
+  background-color: transparent;
+  padding: 13px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-style: solid;
+  border-radius: 10px;
+}
+.span {
+  color: rgb(65, 63, 63);
+}
+.back-btn {
+  display: none;
+}
+.back-arrow {
+  background-color: transparent;
+  font-size: 22px;
+  border: none;
+}
+.add-bookmark-icon {
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+}
+.apply-now-container {
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 425px) {
+  .job-detail-container1 {
+    padding: 30px;
+    padding-bottom: 80px;
+  }
+}
+
+@media(min-width:768px){
+    .companeyName {
+        margin: 0px;
+        font-size: 22px;
+      }
+      .title {
+        font-size: 15px;
+      }
+}
+
+@media (min-width: 992px) {
+  .add-bookmark-icon {
+    display: none;
+  }
+  .back-arrow {
+    display: none;
+  }
+  .add-bookmark {
+    display: flex;
+  }
+  .companeyName {
+    margin: 0px;
+    font-size: 25px;
+  }
+  .title {
+    font-size: 16px;
+  }
+  .back-btn {
+    display: flex;
+    background-color: transparent;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    border-color: rgb(112, 111, 111);
+    font-size: 18px;
+  }
+  .details-containe{
+    display: flex;
+  }
+  .details-containe-1{
+    width: 45%;
+  }
+}

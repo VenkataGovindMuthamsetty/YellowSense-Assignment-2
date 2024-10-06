@@ -1,0 +1,76 @@
+.bottom-nav-bar {
+  position: fixed; /* This makes the navigation bar stay in place */
+  bottom: 0; /* Positions the navbar at the bottom */
+  left: 0;
+  right: 0;
+  background-color: white;
+  height: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+.app {
+  background-color: rgb(230, 226, 226);
+  min-height: 100vh;
+  height: 100%;
+}
+.nav-buttons {
+  background-color: transparent;
+  font-size: 15px;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.active-nav-buttons {
+  color: blue;
+  border-color: blue;
+  background-color: transparent;
+  font-size: 15px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+@media (min-width: 576px) {
+  .nav-buttons {
+    font-size: 16px;
+  }
+  .active-nav-buttons {
+    font-size: 16px;
+  }
+  .bottom-nav-bar {
+    height: 40px;
+    padding-bottom: 3px;
+  }
+}
+@media (min-width: 768px) {
+  .nav-buttons {
+    font-size: 18px;
+  }
+  .active-nav-buttons {
+    font-size: 18px;
+  }
+  .bottom-nav-bar {
+    padding-bottom: 5px;
+  }
+}
+@media(min-width:992px){
+  .bottom-nav-bar {
+    padding-bottom: 8px;
+  }
+}
+@media (min-width: 1400px) {
+  .nav-buttons {
+    font-size: 22px;
+  }
+  .active-nav-buttons {
+    font-size: 22px;
+  }
+}

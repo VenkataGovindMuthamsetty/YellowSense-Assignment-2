@@ -1,0 +1,23 @@
+.no-bookmarks{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+.no-bookmarks-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+@media(min-width:768px){
+    .no-bookmarks{
+        background-color: white;
+        text-align: center;
+        padding: 40px;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
